@@ -1,0 +1,67 @@
+body, html{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    background: url("images/background.jpg");
+}
+.main{
+    border: 10px solid white;
+    background: #fff;
+    margin:0 10% 0 10%;
+}
+.h:hover{
+    background: yellow;
+}
+.red{
+    background: #A8F0F0;
+    text-align: right;
+
+}
+
+.friend{
+    border: 4px solid #67d7f0;
+    background: #ace9e4;
+    padding:5px;
+    margin: 5px 10px 0 0;
+    float: left;
+    clear: left;
+    flex-wrap: wrap;
+}
+
+.orange h2{
+    size:14pt;
+    margin:5px;
+    flex-wrap: wrap;
+}
+.blue{
+    border: 4px solid #C2E9E9;
+    background: #E8FBFB;
+    padding:5px;
+    margin: 10px 0 0 0;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+.blue p:nth-child(1){
+    width: 100%;
+
+}
+.blue img:hover{
+   float: right;
+}
+.blue span{
+    border-bottom: 2px dashed #009097;
+    margin-left: 5px;
+    flex-wrap: wrap;
+}
+.blue2{
+    border:4px solid #C2E9E9;
+    padding:5px;
+    margin: 10px 0 0 0;
+    flex-wrap: wrap;
+}
+.blue2 span{
+    border-bottom:2px dashed #009097;
+    margin-left: 5px;
+    flex-wrap: wrap;
+}
